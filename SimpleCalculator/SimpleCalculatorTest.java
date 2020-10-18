@@ -29,8 +29,10 @@ public class SimpleCalculatorTest {
                 break;
             case "multiply":
                 System.out.println(SC.multiply(4, 5));   // Expected 20
+                break;
             case "divide":
-                System.out.println(SC.multiply(10, 5));   // Expected 2
+                System.out.println(SC.divide(10, 5));   // Expected 2
+                break;
             default:
                 System.out.println("Uknown argument");
                 

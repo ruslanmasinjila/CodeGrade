@@ -7,7 +7,7 @@ public class SimpleCalculator {
         return 0;
     }
 
-    // LEAVE THE REST OF THE CODE
+
     public int subtract(int a, int b) {
 
         return a - b;
@@ -17,8 +17,11 @@ public class SimpleCalculator {
         return a * b;
     }
 
+
+ 
     // This has errors on purpose. The idea is to see
     // If CodeGrade will detect this.
+    // Please leave it as it is
     
     public int divide(int a, int b) {
 

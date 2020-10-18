@@ -19,9 +19,7 @@ public class SimpleCalculator {
 
 
  
-    // This has errors on purpose. The idea is to see
-    // If CodeGrade will detect this.
-    // Please leave it as it is
+    // Modify this method to get correct output
     
     public int divide(int a, int b) {
 

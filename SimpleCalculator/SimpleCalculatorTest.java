@@ -19,6 +19,13 @@ public class SimpleCalculatorTest {
     public static void main(String[] args) {
 
         SimpleCalculator SC = new SimpleCalculator();
+        
+        if(args.length<1)
+        {
+            System.out.println("Usage: java SimpleCalculatorTest <arg> ");
+            System.out.println("Exiting Test Program");
+            System.exit(0);
+        }
 
         switch (args[0]) {
             case "add":
